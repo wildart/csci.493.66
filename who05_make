@@ -1,0 +1,8 @@
+CC=gcc
+CFLAGS=-Wall
+
+all:
+	$(CC) $(CFLAGS) -I. -o who05 utmp_utils.c who05.c
+
+clean:
+	rm who05 who05.o

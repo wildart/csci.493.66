@@ -1,4 +1,4 @@
-csci.493.66
+CSCI 496.33
 ===========
 
-Source code for CSCI 493.66 course
+This is repository contains source code for CSCI 493.66 course.
