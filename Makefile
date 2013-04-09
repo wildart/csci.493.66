@@ -13,5 +13,11 @@ drawgrid:
 
 cursortrack:
 	gcc -o cursortrack cursortrack.c -lncurses
-	
-	
+
+drawmultigrid:
+	gcc -o drawmultigrid drawmultigrid.c -lncurses
+
+bouncestr:
+	gcc -o bouncestr bouncestr.c -lncurses
+
+
