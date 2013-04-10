@@ -1,5 +1,5 @@
 clean:
-	rm *.o
+	rm -f *.o
 	find . -executable -type f -not -iname "*.*" -delete
 
 helloncurses:
@@ -20,4 +20,11 @@ drawmultigrid:
 bouncestr:
 	gcc -o bouncestr bouncestr.c -lncurses
 
+bouncestr_async:
+	gcc -o bouncestr_async bouncestr_async.c -lncurses
 
+bouncestr2:
+	gcc -o bouncestr2 bouncestr2.c -lncurses
+
+bouncestr_aio:
+	gcc -o bouncestr_aio bouncestr_aio.c -lncurses -lrt
