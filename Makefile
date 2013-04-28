@@ -28,3 +28,9 @@ bouncestr2:
 
 bouncestr_aio:
 	gcc -o bouncestr_aio bouncestr_aio.c -lncurses -lrt
+
+upcase_client:
+	gcc -I. upcaseclient1.c -o upcaseclient1
+
+upcase_server:
+	gcc -I. upcased1.c -o upcased1
