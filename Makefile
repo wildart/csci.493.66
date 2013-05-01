@@ -41,3 +41,8 @@ upcase_client2:
 upcase_server2:
 	gcc -I. upcased2.c -o upcased2
 
+tjoin:
+	gcc -pthread thread_join.c -o tjoin
+
+tdetach:
+	gcc -pthread thread_detach.c -o tdetach
